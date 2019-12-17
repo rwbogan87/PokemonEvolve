@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(#C02425,#F0CB35);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.starters {
+    position: relative;
+    text-align: center;
+}
+
+.photo {
+    background: black;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.image {
+    background: black;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+}
+
+#clickme  {
+    border-radius: 25px;
+}

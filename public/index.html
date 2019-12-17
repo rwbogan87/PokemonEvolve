@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokemon API</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Evolution Checker</h1>
+    
+    <div class="starters">
+    <!-- user choices -->
+    <!-- bulbasaur -->
+    <div class="choices" id="grass">
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" class="photo" alt="">
+    <form>
+        <input id="clickMe" type="button" value="Bulbasaur, I choose you!" style="border-radius: 25px; padding:5px" onclick="bulbasaur();" />
+    </form>
+    <img id='imageOne' class='image' src="" />
+    <img id='imageTwo' class='image' src="" />
+    <img id='imageThree' class='image' src="" />
+    </div>
+    <br>
+    <!-- charmander -->
+    <div class="choices" id="fire">
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" class="photo" alt="">
+    <form>
+        <input id="clickMe" type="button" value="Charmander, I choose you!" style="border-radius: 25px; padding:5px" onclick="charmander();" />
+    </form>
+    <img id='imageFour' class='image' src="" alt=""/>
+    <img id='imageFive' class='image' src="" />
+    <img id='imageSix' class='image' src="" />
+    </div>
+    <br>
+    <!-- squirtle -->
+    <div class="choices" id="water">
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" class="photo" alt="">
+    <form>
+        <input id="clickMe" type="button" value="Squirtle, I choose you!" style="border-radius: 25px; padding:5px" onclick="squirtle();" />
+    </form>
+    <img id='imageSeven' class='image' src="" alt=""/>
+    <img id='imageEight' class='image' src="" />
+    <img id='imageNine' class='image' src="" />
+    </div>
+    </div>
+    <br><br><br>
+    
+    <script src='../public/poke.js'></script>
+</body>
+</html>
